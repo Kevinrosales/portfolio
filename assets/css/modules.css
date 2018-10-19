@@ -1,0 +1,162 @@
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+
+mark {
+    background-color: transparent;
+    color: inherit;
+}
+
+input, select, textarea {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+}
+
+input, textarea, select {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 19pt;
+    font-weight: 300;
+    line-height: 1.75em;
+    color: #888;
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+    color: inherit;
+    text-decoration: none;
+}
+
+h1 a strong, h2 a strong, h3 a strong, h4 a strong, h5 a strong, h6 a strong {
+    color: #333;
+}
+
+h2.alt {
+    color: #888;
+}
+
+h2.alt strong {
+        color: #666;
+}
+
+strong, b {
+    font-weight: 300;
+    color: #666;
+}
+em, i {
+    font-style: italic;
+}
+
+hr {
+    border: 0;
+    border-top: solid 1px #ddd;
+}
+
+blockquote {
+    border-left: solid 0.5em #ddd;
+    padding: 1em 0 1em 2em;
+    font-style: italic;
+}
+
+br.clear {
+    clear: both;
+}
+
+table tbody tr:nth-child(2n+2) {
+	background: #f4f4f4;
+}
+
+table thead {
+	background: #444;
+	color: #fff;
+}
+
+table tfoot {
+	background: #eee;
+}
+.icon {
+	text-decoration: none;
+}
+
+.icon:before {
+	display: inline-block;
+	font-family: FontAwesome;
+	font-size: 1.25em;
+	text-decoration: none;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon > .label {
+	display: none;
+}
+
+#header .icons a:hover {
+	color: #fff;
+}
+
+#nav ul li a.active {
+	background: rgba(0, 0, 0, 0.15);
+	box-shadow: inset 0 0 0.25em 0 rgba(0, 0, 0, 0.125);
+	color: #fff;
+}
+
+#nav ul li a.active span:before {
+	color: #e27689;
+}
+#footer .copyright {
+	cursor: default;
+	margin: 0;
+}
+
+#main > section.dark {
+	color: #ddd;
+	color: rgba(255, 255, 255, 0.75);
+}
+
+#main > section.dark h2, #main > section.dark h3, #main > section.dark h4, #main > section.dark h5, #main > section.dark h6 {
+	color: inherit;
+}
+
+#main > section.dark strong {
+	color: #fff;
+	border-color: inherit;
+}
+
+#main > section.dark a {
+	color: #fff;
+	border-color: inherit;
+}
+
+#main > section.dark a:hover {
+	border-bottom-color: rgba(255, 255, 255, 0);
+}
+
+#main > section.one {
+	background-color: #81918E;
+	background-image: url("../../images/banner.jpg");
+}
+
+#main > section.two {
+	background-color: #f5fafa;
+}
+
+#main > section.three {
+	background-color: #ecf1f1;
+}
+
+#main > section.four {
+	background-color: #e8edec;
+}
